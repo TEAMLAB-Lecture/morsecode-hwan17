@@ -290,7 +290,7 @@ def main():
         elif is_validated_english_sentence(user_input):
             print(encoding_sentence(user_input))
         else:
-            print('Wrong')
+            print('Wrong Input')
     # ==================================
     print("Good Bye")
     print("Morse Code Program Finished!!")
